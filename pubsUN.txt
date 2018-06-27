@@ -1,0 +1,32 @@
+"VS_NAZOV" "preds" "freq_pr" "miestny" "freq_miestny" "sum" "Size"
+"1" "Akadémia ozbrojených síl v Liptovskom Mikuláši" 0 0 3 0.25 12 3.46410161513775
+"2" "Akadémia Policajného zboru v Bratislave" 0 0 0 0 4 2
+"3" "Ekonomická univerzita v Bratislave" 39 0.151162790697674 49 0.189922480620155 258 16.062378404209
+"4" "Hochschule Fresenius gGmbH" 0 0 0 0 2 1.4142135623731
+"5" "Katolícka univerzita v Ružomberku" 6 0.0810810810810811 14 0.189189189189189 74 8.60232526704263
+"6" "Paneurópska vysoká škola" 7 0.155555555555556 4 0.0888888888888889 45 6.70820393249937
+"7" "Prešovská univerzita v Prešove" 22 0.0849420849420849 76 0.293436293436293 259 16.0934769394311
+"8" "Slovenská poľnohospodárska univerzita v Nitre" 1 0.00210084033613445 269 0.565126050420168 476 21.8174242292714
+"9" "Slovenská technická univerzita v Bratislave" 13 0.00975975975975976 166 0.124624624624625 1332 36.4965751817893
+"10" "Slovenská zdravotnícka univerzita v Bratislave" 1 0.010989010989011 22 0.241758241758242 91 9.53939201416946
+"11" "Technická univerzita v Košiciach" 39 0.0367231638418079 274 0.258003766478343 1062 32.5883414736007
+"12" "Technická univerzita vo Zvolene" 3 0.0101010101010101 108 0.363636363636364 297 17.2336879396141
+"13" "Trenčianska univerzita Alexandra Dubčeka v Trenčíne" 17 0.120567375886525 21 0.148936170212766 141 11.8743420870379
+"14" "Trnavská univerzita v Trnave" 2 0.0129032258064516 35 0.225806451612903 155 12.4498995979887
+"15" "Univerzita J. Selyeho" 4 0.0408163265306122 7 0.0714285714285714 98 9.89949493661167
+"16" "Univerzita Komenského v Bratislave" 25 0.0119731800766284 445 0.213122605363985 2088 45.6946386351835
+"17" "Univerzita Konštantína Filozofa v Nitre" 38 0.103260869565217 92 0.25 368 19.1833260932509
+"18" "Univerzita Mateja Bela v Banskej Bystrici" 19 0.0781893004115226 41 0.168724279835391 243 15.5884572681199
+"19" "Univerzita Pavla Jozefa Šafárika v Košiciach" 14 0.0168674698795181 112 0.134939759036145 830 28.8097205817759
+"20" "Univerzita sv. Cyrila a Metoda v Trnave" 45 0.257142857142857 46 0.262857142857143 175 13.228756555323
+"21" "Univerzita veterinárskeho lekárstva a farmácie v Košiciach" 2 0.0116279069767442 23 0.133720930232558 172 13.114877048604
+"22" "Vysoká škola bezpečnostného manažérstva v Košiciach" 0 0 3 0.5 6 2.44948974278318
+"23" "Vysoká škola Danubius" 0 0 2 0.4 5 2.23606797749979
+"24" "Vysoká škola DTI" 0 0 1 0.0666666666666667 15 3.87298334620742
+"25" "Vysoká škola ekonómie a manažmentu verejnej správy v Bratislave" 2 0.0909090909090909 4 0.181818181818182 22 4.69041575982343
+"26" "Vysoká škola manažmentu v Trenčíne" 0 0 0 0 8 2.82842712474619
+"27" "Vysoká škola medzinárodného podnikania ISM Slovakia v Prešove" 1 0.0909090909090909 1 0.0909090909090909 11 3.3166247903554
+"28" "Vysoká škola múzických umení v Bratislave" 0 0 0 0 4 2
+"29" "Vysoká škola výtvarných umení v Bratislave" 0 0 0 0 5 2.23606797749979
+"30" "Vysoká škola zdravotníctva a sociálnej práce sv. Alžbety v Bratislave" 3 0.103448275862069 6 0.206896551724138 29 5.3851648071345
+"31" "Žilinská univerzita v Žiline" 7 0.00879396984924623 259 0.325376884422111 796 28.2134719593318
