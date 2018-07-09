@@ -74,14 +74,8 @@ Po úpravách som znova dopočítal sumarizácie a výsledný dataset nájtede p
 online cez cloud
 <https://samuell.shinyapps.io/publications/>
 
-alebo máte nainštalované Rko a Rstudio a chcete mi ušetriť hodiny na účte použite GitHub cestu. Potrebuje mať nainštalované knižnice:
-library(shiny)
-library(shinythemes)
-library(ggplot2)
-library(dplyr)
-library(plotly)
-library(gridExtra)
+alebo máte nainštalované Rko a Rstudio a chcete mi ušetriť hodiny na účte použite GitHub cestu. Potrebuje mať nainštalované knižnice: **shiny, shinythemes, ggplot2, dplyr, plotly a gridExtra**.
 
 potom už len spustiť príkaz 
 
-runGitHub( "Publications", "SamuelHudec")
+**runGitHub( "Publications", "SamuelHudec")**
