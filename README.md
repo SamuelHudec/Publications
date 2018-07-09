@@ -59,16 +59,16 @@ Oba datasety okrem iného obsahujú aj extra premennú s názvom Size slúžiacu
 
 ## Špecifické úpravy
 
-Dataset _pubs_vedecke_prac.txt_ použítý na detailné znázornenie sa ukázal ako príliš podrobný a graf obsahuje akosi "veľa" bublín. Niektoré fakulty publikovali vo viacerých vedných odboroch ako napríklad UK - Prírodovedecká fakulta má publikácie aj v Spoločenských vedách, čo nie je nič nové. Lenže na prvý náhľad do grafu môže práve toto pôsobiť zmetočne a preto som sa po konzultácií rozhodol **zlúčiť publikácie** v daných vedeckých pracoviskách pod jedným hlavným vedným oborom. 
+Dataset _pubs_vedecke_prac.txt_ použítý na detailné znázornenie sa ukázal ako príliš podrobný a graf obsahuje "veľa" bublín. Niektoré fakulty publikovali vo viacerých vedných odboroch ako napríklad UK - Prírodovedecká fakulta má publikácie aj v Spoločenských vedách, čo nie je nič nové. Lenže na prvý náhľad grafu môže práve toto pôsobiť zmetočne a preto som sa po konzultáciách s kolegami rozhodol **zlúčiť publikácie** v daných vedeckých pracoviskách pod jedným hlavným vedným oborom. 
 
 **Hlavný vedný odbor** považujem taký, v ktorom má dané vedecké pracovisko naväčší počet publikácií bez ohľadu na to či sa jedná o miestne alebo predátorské. Väčšina prípadov bola _intuitívna_ napríklad Fakulta prírodných vied dostala prívlastok prírodné vedy, ale v dateasete najdete aj také, ktoré _intuitivne nesedia_. Poznámka: pár prípadov bolo nerozhodných, teda som stanovil hlavný vedný odbor pracoviska podľa najrozumnejšej možnosti.
 
-Zlučovanie neplatilo pre vedecké pracoviská, ktoré nemali fakulty (nedalo sa jednoznačne určiť hlavný vedný odbor) a pre mimofakultné publikácie. Do množiny **mimofakultné** spadajú publikácie označené ako mimo fakúlt, rektorát, centrálna časť a pracoviská.
+Zlučovanie neplatilo pre vedecké pracoviská, ktoré nemali fakulty (nedalo sa jednoznačne určiť hlavný vedný odbor) a pre mimofakultné publikácie zjednotené pod jedným názvom _mimo fakúlt_. Do množiny **mimo fakúlt** spadajú publikácie označené ako mimo fakúlt, rektorát, centrálna časť a pracoviská.
 
 Po úpravách som znova dopočítal sumarizácie a výsledný dataset nájtede pod názvom _pubs_vedecke_prac_uprava.txt_. 
 
 
 
 ## Spustenie aplikácie
-Bibliographical study of Slovak University publications
+
 <https://samuell.shinyapps.io/publications/>
