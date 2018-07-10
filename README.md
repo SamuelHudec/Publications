@@ -78,6 +78,8 @@ online cez shiny cloud
 
 alebo máte nainštalované R-ko s Rstudiom a chcete mi ušetriť hodiny na účte, tak použite GitHub cestu. Potrebuje mať nainštalované knižnice: **shiny, shinythemes, ggplot2, dplyr, plotly a gridExtra**.
 
-Potom už len spustiť príkaz 
+Potom už len spustiť príkaz
+
+**library(shiny)**
 
 **runGitHub("Publications", "SamuelHudec")**
