@@ -18,7 +18,7 @@ pubsUNFcor <- read.table("https://raw.githubusercontent.com/SamuelHudec/Publicat
 
 
 
-## external functions ####
+## external commands and funcitons ####
 
 rotatedAxisElementText = function(angle,position='x'){
   angle     = angle[1]; 
@@ -33,7 +33,7 @@ rotatedAxisElementText = function(angle,position='x'){
   vjust = 0.5*(1 + cos(rads))
   element_text(angle=angle,vjust=vjust,hjust=hjust)
 }
-
+cols = c("Humanitné vedy"="#F8766D", "Lekárske vedy"="#B79F00", "Poľnohospodarske vedy"="#00BA38", "Prírodné vedy"="#00BFC4", "Spoločenské vedy"="#619CFF", "Technické vedy"="#F564E3")
 
 
 # Define UI for application ####
@@ -60,7 +60,7 @@ ui <- fluidPage(theme=shinytheme("paper"),titlePanel(NULL,windowTitle = "Publik�
       ),
       p("Inšpirovaný touto prácou som sa rozhodol pozrieť na situáciu na Slovensku za použitia verejne dostupných dát", 
         a(href="https://www.minedu.sk/rozpis-dotacii-zo-statneho-rozpoctu-verejnym-vysokym-skolam-na-rok-2018/" ,"Ministersva školstva")," za roky 2015 a 2016. 
-        Podrobný postup spracovania a aj použité dáta nájtedte v mojom", a(href="https://github.com/SamuelHudec/Publications", "repozitáry.")
+        Podrobný postup spracovania a všetky použité dáta nájtedte na tomto", a(href="https://github.com/SamuelHudec/Publications", "linku.")
       ),hr(),br(),
       p("Zamestnanci vysokého školstva sú motivovaní publikovať, nakoľko na základe publikačnej činnosti majú ich pracoviská pridelené finančné prostriedky. 
         Okrem financií z Ministerstva školstva od publikovania závisí aj získavanie grantov, kariérny rast, ako aj schopnosť pracoviska garantovať štúdijné programy."
@@ -84,7 +84,7 @@ ui <- fluidPage(theme=shinytheme("paper"),titlePanel(NULL,windowTitle = "Publik�
       p("Štruktúra prispiavajúcich autorov, taktiež vypovedá o relevantnosti časopisu. 
         Prestížne časopisy sú spravidla vysoko mezinárodné. Naopak časopisy, v ktorých je okruh prispievatelov úzky, publikujú dôležité vedecké práce len výnimočne.
         Akademici mimo tohoto okruhu do nich nielenže neprispievajú, ale pravdepodne ich ani nečítajú. Za",strong("miestne orientované časopisy"), "považujeme tie,
-        ktoré 'veľa' publikujú články od autorov zo", tags$u("Slovenska a Česka"),", (nejedná sa o časopisy vydané na Slovensku). Tu je dôležité poznamenať, 
+        ktoré 'veľa' publikujú články od autorov zo Slovenska a Česka, (nejedná sa len o domáce časopisy). Tu je dôležité poznamenať, 
         že publikácia v miestnom časopise neznamená automaticky, že nejde o kvalitnú vedu. Pre podrobnejšiu predstavu a osvetlenie problému odporúčam štúdiu", 
         a(href="https://idea.cerge-ei.cz/files/IDEA_Studie_17_2017_Mistni_casopisy_ve_Scopusu/mobile/index.html", "Místní časopisy ve Scopusu.") 
         ),hr(),br()
@@ -103,26 +103,23 @@ ui <- fluidPage(theme=shinytheme("paper"),titlePanel(NULL,windowTitle = "Publik�
     
     # plot notes
     column(4,br(),br(),br(),br(),align="left",
-      p(strong("Krúžky"), "na grafe predstavujú jednotlivé výskumné pracoviská. 
-        Veľkosť krúžku reflektuje počet celkovo publikovaných článkov na danom pracovisku."
-        ),
-      p("Jedno a to isté pracovisko môže publikovať vo viacerých vedeckých oblastiach preto 
-        dvojaké", strong("Ofarbenie.")
+      p(strong("Krúžky"), "na grafe predstavujú jednotlivé výskumné pracoviská s farbami podľa vedeckého zamerania. 
+        Veľkosť krúžku zodpovedá počtu celkovo publikovaných článkov na danom pracovisku."
         ),
       p("Klikaním na", strong("legendu"), "schováte alebo zobrazíte vedecké zamerania."
         ),
       p(strong("Osi")," predstavujú podiely článkov v predátoských a miestnych časopisoch ku 
         všetkým článkom daného pracoviska."),
       p("Takže pracoviská, ktoré sú čo najbližšie ľavého dolného rohu publikujú predovšetkým v kvalitných 
-        medzinárodných časopisoch. Naopak, čím ďalej od rohu tým väčší podiel článkov v predatorskych a 
-        miestnych časopisoch."
+        medzinárodných časopisoch. Naopak, čím vyššie je pracovisko na grafe, tým má väčší podiel 
+        predátorských publikácií a čím je viac vpravo, tým má väčší podiel miestnych publikácií."
         ),
       hr(),
-      radioButtons(inputId="radio", label = NULL,
-          choices = list("Hlavné vedecké zamerania pracoviska" = "cor", 
+      # change ordering
+      radioButtons(inputId="radio", label = "Zmeň spôsob triedenia vedeckých pracovísk",
+          choices = list("Hlavné vedecké zameranie pracoviska" = "cor", 
             "Vedecké zameranie publikácií pracovísk" = "raw"), 
-          selected = "cor"),
-      
+          selected = "cor"),br(),
       # select department
       selectInput(inputId = "select_VS",label="Filtruj Vysokú školu",
                   choices = c(list("Všetky",
@@ -157,7 +154,8 @@ ui <- fluidPage(theme=shinytheme("paper"),titlePanel(NULL,windowTitle = "Publik�
                     "Vysoká škola výtvarných umení v Bratislave",
                     "Vysoká škola zdravotníctva a sociálnej práce sv. Alžbety v Bratislave",
                     "Žilinská univerzita v Žiline")),
-                  selected = "Všetky")
+                  selected = "Všetky"
+      )
     )
   ),
   
@@ -167,10 +165,12 @@ ui <- fluidPage(theme=shinytheme("paper"),titlePanel(NULL,windowTitle = "Publik�
         medzi nimi podstatný rozdiel. Kým prírodné vedy sú sustredené viacej k ľavému dolnému rohu 
         až na výnimky, spoločenské vedy sú sústredné prevažne ďalej. Ak ponecháte len",strong("Poľnohospodárske vedy"),", tak si môžete všimnuť prevažne
         publikácie v miestnych časopisoch, čo spôsobuje aj užší okruch možnosti publikácie."), 
-      p("Štandardné ofarbenie grafu podľa hlavného vedeckého zamerania pracoviska znázornuje ako sa prezentujú jednotlivé pracoviská, ak si prepnete na 
-        'to druhé' v nesie nám to podrobnejší pohľad do pracoviska, čo zvýrazní rozdieli na úrovny pracoviska a vedného odboru."),
-      p("Graf je taktiež možné zúžiť len na",strong("jednu vysokú školu"),", čím sa zvýrazní rozdiel medzi jej jednotlivými fakultami. 
-        Je vidieť, že na niektorých vysokých školách je za vyšší podiel predátorských publikácií zodpovedných len pár fakúlt. V takýchto prípadoch 
+      p("Jedno a to isté pracovisko môže publikovať vo viacerých vedeckých oblastiach, a preto ponúkam možnosť prepnúť ", strong("spôsob triedenia")," aj podľa 
+        vedeckých zameraní publikácií, nie len na základe zamerania pracoviska. Teda v grafe sa môže jedno pracovisko vyskytnúť viackrát pričom sa počet publikácií v súčte nezmení. 
+        Týmto pohľadom je vidieť hlbšie do štruktúri a dajú sa lahšie všimnúť cielové (zaujímavé) skupinky."
+        ),
+      p("Graf je taktiež možné zúžiť len na",strong("jednu vysokú školu"),", čím sa zvýrazní rozdiel medzi jej jednotlivými fakultami alebo pracoviskami. 
+        Je vidieť, že na niektorých vysokých školách je za vyšší podiel predátorských publikácií zodpovedných len pár z nich. V takýchto prípadoch 
         je zrejme potrebné individuálne diskutovať o dôvodoch, ktoré vedú pracovníkov k systematickému publikovaniu v pochybných časopisoch."
         )
     )
@@ -193,10 +193,10 @@ ui <- fluidPage(theme=shinytheme("paper"),titlePanel(NULL,windowTitle = "Publik�
     column(6,offset=1,
       plotlyOutput(outputId="UPlot",height = "600px")
     ),
-    column(4,br(),align="left",
-      p("Zásadný rozdiel je viditeľný ihneď, akonáhle sa pozeráme na publikácie cez Vysoké školy. Všetky pracoviská publikujúce výrazne v predátorských a miestnych časopisoch 
-        sa 'schovali' za ích Vysokú školu a už nie sú 'na očiach'. Na druhej strane týmto pohľadom hádžeme do jedného mecha aj poctivejšie pracoviská, ktoré sa až na výnimky 
-        snažia takýmto publikáciám vyhnúť."),hr(),
+    column(4,br(),
+      p(strong("Zásadný rozdiel")," je viditeľný ihneď, akonáhle sa pozeráme na publikácie cez Vysoké školy. Všetky pracoviská publikujúce výrazne v predátorských a miestnych časopisoch 
+        sa 'schovali' za ích Vysokú školu a už nie sú 'na očiach'.",strong("Na druhej strane")," týmto pohľadom hádžeme do jedného mecha aj poctivejšie pracoviská, ktoré sa až na výnimky 
+        snažia takýmto publikáciám vyhnúť.",align="left"),hr(),
       h4("Pár slov na záver",align="center"),
       p("Na Slovensku máme veľké množstvo prvotriednych odborníkov uznávaných vo svete, právom hrdých na svoju prácu. 
         Tu som ukázal rozdiely v publikovaní na vysokých školách. Problémom určite nie sú len ľudia, ale aj systém, ktorý 
@@ -256,6 +256,7 @@ server <- function(input, output) {
             labs(x="Podiel publikácií v miestnych časopisoch",y="Podiel publikácií v predátorských časopisoch") +
             guides(size=FALSE,col=guide_legend(title=NULL)) + 
             scale_size(range = c(1, 8)) +
+            scale_color_manual(values=cols) +
             theme(axis.text.y = rotatedAxisElementText(90,"y")) + 
             scale_y_continuous(labels = scales::percent,  limits=c(0, 1), position="left") + 
             scale_x_continuous(labels = scales::percent, limits=c(0, 1))
