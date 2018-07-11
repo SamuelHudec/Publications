@@ -214,7 +214,7 @@ ui <- fluidPage(theme=shinytheme("paper"),titlePanel(NULL,windowTitle = "Publik�
   fluidRow(
     column(10,offset=1,
       hr(),
-      p("Túto prácu má na svedomí", strong("Samuel Hudec"), "| doc. Harmanovy a dr. Lafférsovy ďakuje za pripomienky.",align="right"
+      p("Túto prácu má na svedomí", strong("Samuel Hudec"), "| doc. Harmanovi a dr. Lafférsovi ďakuje za pripomienky.",align="right"
       ),
       br()
     )
