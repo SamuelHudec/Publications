@@ -60,10 +60,10 @@ ui <- fluidPage(theme=shinytheme("paper"),titlePanel(NULL,windowTitle = "Publik�
       ),
       p("Inšpirovaný touto prácou som sa rozhodol pozrieť na situáciu na Slovensku za použitia verejne dostupných dát", 
         a(href="https://www.minedu.sk/rozpis-dotacii-zo-statneho-rozpoctu-verejnym-vysokym-skolam-na-rok-2018/" ,"Ministersva školstva")," za roky 2015 a 2016. 
-        Podrobný postup spracovania a všetky použité dáta nájtedte na tomto", a(href="https://github.com/SamuelHudec/Publications", "linku.")
+        Podrobný postup spracovania a všetky použité dáta nájdete na tomto", a(href="https://github.com/SamuelHudec/Publications", "linku.")
       ),hr(),br(),
       p("Zamestnanci vysokého školstva sú motivovaní publikovať, nakoľko na základe publikačnej činnosti majú ich pracoviská pridelené finančné prostriedky. 
-        Okrem financií z Ministerstva školstva od publikovania závisí aj získavanie grantov, kariérny rast, ako aj schopnosť pracoviska garantovať štúdijné programy."
+        Okrem financií z Ministerstva školstva od publikovania závisí aj získavanie grantov, kariérny rast, ako aj schopnosť pracoviska garantovať študijné programy."
       ),
       h5("Nie je publikácia ako publikácia",align="center"),br(),
       p("Vedecké časopisy sú veľmi rôznej kvality. Tie najkvalitnejšie opublikujú len veľmi malý zlomok článkov, ktoré sú im zaslané a tieto podliehajú prísnemu 
@@ -71,7 +71,7 @@ ui <- fluidPage(theme=shinytheme("paper"),titlePanel(NULL,windowTitle = "Publik�
         Okrem kvalitných časopisov sú však aj časopisy menej kvalitné, kde je selekčný proces mierny a šanca prijatia vedeckého článku vysoká."
         ),
       p("Najhoršie, takzvané",strong("Predátorské časopisy"), "akademikom za poplatok ponúkajú rýchlu publikáciu článkov 
-        bez poriadneho alebo žiadneho recenzného konania.  Známe sú mnohé prípady, keď predátorský časopis uverejnil úplné nezmysli,
+        bez poriadneho alebo žiadneho recenzného konania.  Známe sú mnohé prípady, keď predátorský časopis uverejnil úplné nezmysly,
         z ktorých je zrejmé, že článok nevidel ani len editor", 
         a( href="https://www.theguardian.com/australia-news/2014/nov/25/journal-accepts-paper-requesting-removal-from-mailing-list", "príklad.")
         ),
@@ -82,8 +82,8 @@ ui <- fluidPage(theme=shinytheme("paper"),titlePanel(NULL,windowTitle = "Publik�
         "alebo", a(href="https://en.wikipedia.org/wiki/Predatory_open-access_publishing", "Predatory publishing.")
         ), br(),
       p("Štruktúra prispiavajúcich autorov, taktiež vypovedá o relevantnosti časopisu. 
-        Prestížne časopisy sú spravidla vysoko mezinárodné. Naopak časopisy, v ktorých je okruh prispievatelov úzky, publikujú dôležité vedecké práce len výnimočne.
-        Akademici mimo tohoto okruhu do nich nielenže neprispievajú, ale pravdepodne ich ani nečítajú. Za",strong("miestne orientované časopisy"), "považujeme tie,
+        Prestížne časopisy sú spravidla vysoko medzinárodné. Naopak časopisy, v ktorých je okruh prispievateľov úzky, publikujú dôležité vedecké práce len výnimočne.
+        Akademici mimo tohoto okruhu do nich nielenže neprispievajú, ale pravdepodobne ich ani nečítajú. Za",strong("miestne orientované časopisy"), "považujeme tie,
         ktoré 'veľa' publikujú články od autorov zo Slovenska a Česka, (nejedná sa len o domáce časopisy). Tu je dôležité poznamenať, 
         že publikácia v miestnom časopise neznamená automaticky, že nejde o kvalitnú vedu. Pre podrobnejšiu predstavu a osvetlenie problému odporúčam štúdiu", 
         a(href="https://idea.cerge-ei.cz/files/IDEA_Studie_17_2017_Mistni_casopisy_ve_Scopusu/mobile/index.html", "Místní časopisy ve Scopusu.") 
@@ -162,12 +162,12 @@ ui <- fluidPage(theme=shinytheme("paper"),titlePanel(NULL,windowTitle = "Publik�
   fluidRow(
     column(10,offset=1,br(),br(),
       p("Ak si v legende vykliknete len",strong("Spoločenské vedy a Prírodné vedy"),", tak uvidíte 
-        medzi nimi podstatný rozdiel. Kým prírodné vedy sú sustredené viacej k ľavému dolnému rohu 
-        až na výnimky, spoločenské vedy sú sústredné prevažne ďalej. Ak ponecháte len",strong("Poľnohospodárske vedy"),", tak si môžete všimnuť prevažne
+        medzi nimi podstatný rozdiel. Kým prírodné vedy sú sústredené viacej k ľavému dolnému rohu 
+        až na výnimky, spoločenské vedy sú sústredné prevažne ďalej. Ak ponecháte len",strong("Poľnohospodárske vedy"),", tak si môžete všimnúť prevažne
         publikácie v miestnych časopisoch, čo spôsobuje aj užší okruch možnosti publikácie."), 
-      p("Jedno a to isté pracovisko môže publikovať vo viacerých vedeckých oblastiach, a preto ponúkam možnosť prepnúť ", strong("spôsob triedenia")," aj podľa 
-        vedeckých zameraní publikácií, nie len na základe zamerania pracoviska. Teda v grafe sa môže jedno pracovisko vyskytnúť viackrát pričom sa počet publikácií v súčte nezmení. 
-        Týmto pohľadom je vidieť hlbšie do štruktúri a dajú sa lahšie všimnúť cielové (zaujímavé) skupinky."
+      p("Jedno a to isté pracovisko môže publikovať vo viacerých vedeckých oblastiach, a preto ponúkam možnosť prepnúť ", strong("spôsob triedenia")," na 
+        vedecké zamerania publikácií pracoviska, nie len na základe zamerania pracoviska ako celku. Potom sa v grafe môže jedno pracovisko vyskytnúť viackrát pričom sa počet publikácií v súčte nezmení. 
+        Týmto pohľadom je vidieť hlbšie do štruktúry a dajú sa ľahšie všimnúť cieľové (zaujímavé) skupinky."
         ),
       p("Graf je taktiež možné zúžiť len na",strong("jednu vysokú školu"),", čím sa zvýrazní rozdiel medzi jej jednotlivými fakultami alebo pracoviskami. 
         Je vidieť, že na niektorých vysokých školách je za vyšší podiel predátorských publikácií zodpovedných len pár z nich. V takýchto prípadoch 
@@ -195,7 +195,7 @@ ui <- fluidPage(theme=shinytheme("paper"),titlePanel(NULL,windowTitle = "Publik�
     ),
     column(4,br(),
       p(strong("Zásadný rozdiel")," je viditeľný ihneď, akonáhle sa pozeráme na publikácie cez Vysoké školy. Všetky pracoviská publikujúce výrazne v predátorských a miestnych časopisoch 
-        sa 'schovali' za ích Vysokú školu a už nie sú 'na očiach'.",strong("Na druhej strane")," týmto pohľadom hádžeme do jedného mecha aj poctivejšie pracoviská, ktoré sa až na výnimky 
+        sa 'schovali' za ich Vysokú školu a už nie sú 'na očiach'.",strong("Na druhej strane")," týmto pohľadom hádžeme do jedného mecha aj poctivejšie pracoviská, ktoré sa až na výnimky 
         snažia takýmto publikáciám vyhnúť.",align="left"),hr(),
       h4("Pár slov na záver",align="center"),
       p("Na Slovensku máme veľké množstvo prvotriednych odborníkov uznávaných vo svete, právom hrdých na svoju prácu. 
@@ -214,7 +214,7 @@ ui <- fluidPage(theme=shinytheme("paper"),titlePanel(NULL,windowTitle = "Publik�
   fluidRow(
     column(10,offset=1,
       hr(),
-      p("Túto prácu má na svedomí", strong("Samuel Hudec"), "| dr. Lafférsovy a doc. Harmanovy ďakuje za pripomienky.",align="right"
+      p("Túto prácu má na svedomí", strong("Samuel Hudec"), "| doc. Harmanovy a dr. Lafférsovy ďakuje za pripomienky.",align="right"
       ),
       br()
     )
