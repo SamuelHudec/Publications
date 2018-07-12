@@ -1,6 +1,6 @@
 # Publications
 
-Niektoré dôležité údaje sa na stránku (web aplikáciu) nehodili a boli by viac menej zbytočné pre väčšinu čitateľov. V nasledujúcich riadkoch popisujem zdroje, postup pri manipulácií s dátami a ích finálne úpravy do grafov.
+Niektoré údaje sa na stránku (web aplikáciu) nehodili a boli by zbytočné pre väčšinu čitateľov. V nasledujúcich riadkoch popisujem zdroje, postup pri manipulácií s dátami a ich finálne úpravy do grafov.
 
 
 
@@ -16,15 +16,15 @@ Prvý zdroj obsahuje [link](https://www.minedu.sk/data/att/12810.zip) dáta o 10
 Druhý zdroj obsahuje, okrem množstva zaujímavých analýz, aj štúdiu [Kde se nejvíce publikuje v predátorských a místních časopisech?](https://idea.cerge-ei.cz/files/PredatoriMistni/), v ktorej sa nachádzajú odkazy na databázy.
 
 * **Beallové zoznamy predátorských časopisov** v databázach SCOPUS s ich [ISSN](http://www.issn.org/understanding-the-issn/what-is-an-issn/) číslami, pomocou ktorých vieme označiť publikáciu ako predátorskú. _Poznámka: Jeffrey Beall je knihovník z University of Colorado, na svojom blogu zostavil prehľad „potencionálne“ predátorských časopisov a vydavateľstiev. Tento blog bol prekvapivo zrušený v roku 2017,_ podrobnosti nájdete [tu](https://idea.cerge-ei.cz/files/IDEA_Studie_16_2016_Predatorske_casopisy_ve_Scopusu/mobile/index.html).
-* **Zoznamy miestnych časopisov** je databáza vytvorená CERGE-EI, ktorú zastrešuje podrobná štúdia [tu](https://idea.cerge-ei.cz/files/IDEA_Studie_17_2017_Mistni_casopisy_ve_Scopusu/mobile/index.html). Treba zdôrazniť, že sa nejedná len o domáce časopisy. Data set obsahuje aj zahraničné časopisy, v ktorých často prispievali slovenský a český autori.
+* **Zoznamy miestnych časopisov** je databáza vytvorená CERGE-EI, ktorú zastrešuje podrobná štúdia [tu](https://idea.cerge-ei.cz/files/IDEA_Studie_17_2017_Mistni_casopisy_ve_Scopusu/mobile/index.html). Treba zdôrazniť, že sa nejedná len o domáce časopisy. Dataset obsahuje aj zahraničné časopisy, v ktorých často prispievali slovenský a český autori.
 
-Oba zoznamy môžete n=ájsť aj v tomto repository pod názvami _SeznamMistni.xlsx_ a _SeznamPredators2017.xlsx_
+Oba zoznamy môžete nájsť pod názvami _SeznamMistni.xlsx_ a _SeznamPredators2017.xlsx_
 
 
 
 ## Čistenie dát
 
-Ako už bolo spomenuté, z kompletného súboru som vybral len záložku "DATA", z tej som ďalej vybral selektoval premenné (relevantné)
+Ako už bolo spomenuté, z kompletného súboru som vybral len záložku "DATA", z tej som ďalej vybral premenné (relevantné)
 
 * VS_KOD, 
 * VS_NAZOV, 
@@ -52,11 +52,11 @@ S takzvaným čistým datasetom sa dá ďalej ľahšie manipulovať a použiť n
 
 Vyfiltrujem len články, ktoré boli publikované v databázach **SCOPUS** . Dôvody sú uvedené buď vo vyššie predstavenej analýze od CERGE-EI alebo priamo v mojej aplikácií. Potom beriem do úvahy dva prípady sumarizácií:
 
-* **Vysoké školy** teda spočítam počty miestnych a predátorských publikácii na vysokých školách, z tých dopočítam podieli k celkovým počtom publikácií na danej Vysokej škole. 
+* **Vysoké školy** kde spočítam počty miestnych a predátorských publikácii na vysokých školách, z tých dopočítam podieli k celkovým počtom publikácií na danej Vysokej škole. 
 
-* **Vedecké pracoviská** znova spočítam počty miestnych a predátorských publikácií, ale na vedeckých pracoviskách (zväčša fakulty) vzhľadom na vedecké zameranie publikácií (FOS), nakoniec dopočítam podieli.
+* **Vedecké pracoviská** kde znova spočítam počty miestnych a predátorských publikácií, ale na vedeckých pracoviskách (zväčša fakulty) vzhľadom na vedecké zameranie publikácií (FOS), nakoniec dopočítam podieli.
 
-Oba datasety okrem iného obsahujú aj extra premennú s názvom Size slúžiacu na výpočet veľkosti krúžku v grafe. Nájdete ich pod názvami _pubs_uni.txt_ a _pubs_vedecke_prac.txt_.
+Oba datasety okrem iného obsahujú aj extra premennú s názvom Size slúžiacu na určenie veľkosti krúžku v grafe (schválne určená na odmocnnovej škále aby niektoré pracoviská neprekrili všetky ostatné, napríklad fakulty Univerzity Komenského). Nájdete ich pod názvami _pubs_uni.txt_ a _pubs_vedecke_prac.txt_.
 
 
 ## Špecifické úpravy
@@ -75,11 +75,3 @@ Po úpravách som znova dopočítal sumarizácie a výsledný dataset nájtede p
 
 online cez shiny cloud
 <https://samuell.shinyapps.io/publications/>
-
-alebo máte nainštalované R-ko s Rstudiom a chcete mi ušetriť hodiny na účte, tak použite GitHub cestu. Potrebuje mať nainštalované knižnice: **shiny, shinythemes, ggplot2, dplyr, plotly a gridExtra**.
-
-Potom už len spustite príkaz
-
-**library(shiny)**
-
-**runGitHub("Publications", "SamuelHudec")**
