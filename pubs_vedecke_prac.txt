@@ -206,83 +206,85 @@
 "205" "UKF - Pedagogická fakulta" "Humanitné vedy" "Univerzita Konštantína Filozofa v Nitre" 1 0.2 2 0.4 5 2.23606797749979
 "206" "UKF - Pedagogická fakulta" "Prírodné vedy" "Univerzita Konštantína Filozofa v Nitre" 0 0 0 0 1 1
 "207" "UKF - Pedagogická fakulta" "Spoločenské vedy" "Univerzita Konštantína Filozofa v Nitre" 10 0.27027027027027 4 0.108108108108108 37 6.08276253029822
-"208" "UMB - Ekonomická fakulta" "Humanitné vedy" "Univerzita Mateja Bela v Banskej Bystrici" 0 0 7 0.318181818181818 22 4.69041575982343
+"208" "UMB - Ekonomická fakulta" "Humanitné vedy" "Univerzita Mateja Bela v Banskej Bystrici" 0 0 1 1 1 1
 "209" "UMB - Ekonomická fakulta" "Prírodné vedy" "Univerzita Mateja Bela v Banskej Bystrici" 0 0 0 0 3 1.73205080756888
-"210" "UMB - Ekonomická fakulta" "Spoločenské vedy" "Univerzita Mateja Bela v Banskej Bystrici" 18 0.216867469879518 17 0.204819277108434 83 9.1104335791443
+"210" "UMB - Ekonomická fakulta" "Spoločenské vedy" "Univerzita Mateja Bela v Banskej Bystrici" 1 0.02 17 0.34 50 7.07106781186548
 "211" "UMB - Fakulta politických vied a medzinárodných vzťahov" "Spoločenské vedy" "Univerzita Mateja Bela v Banskej Bystrici" 0 0 2 0.666666666666667 3 1.73205080756888
 "212" "UMB - Fakulta politických vied a medzinárodných vzťahov" "Technické vedy" "Univerzita Mateja Bela v Banskej Bystrici" 0 0 0 0 1 1
 "213" "UMB - Fakulta prírodných vied" "Poľnohospodarske vedy" "Univerzita Mateja Bela v Banskej Bystrici" 0 0 1 1 1 1
 "214" "UMB - Fakulta prírodných vied" "Prírodné vedy" "Univerzita Mateja Bela v Banskej Bystrici" 0 0 10 0.101010101010101 99 9.9498743710662
 "215" "UMB - Fakulta prírodných vied" "Spoločenské vedy" "Univerzita Mateja Bela v Banskej Bystrici" 0 0 0 0 3 1.73205080756888
 "216" "UMB - Fakulta prírodných vied" "Technické vedy" "Univerzita Mateja Bela v Banskej Bystrici" 0 0 4 0.5 8 2.82842712474619
-"217" "UMB - Pedagogická fakulta" "Humanitné vedy" "Univerzita Mateja Bela v Banskej Bystrici" 1 0.333333333333333 0 0 3 1.73205080756888
-"218" "UMB - Pedagogická fakulta" "Spoločenské vedy" "Univerzita Mateja Bela v Banskej Bystrici" 0 0 0 0 16 4
-"219" "UMB - Právnická fakulta" "Spoločenské vedy" "Univerzita Mateja Bela v Banskej Bystrici" 0 0 0 0 1 1
-"220" "UPJŠ - Fakulta verejnej správy" "Spoločenské vedy" "Univerzita Pavla Jozefa Šafárika v Košiciach" 1 0.111111111111111 1 0.111111111111111 9 3
-"221" "UPJŠ - Filozofická fakulta" "Humanitné vedy" "Univerzita Pavla Jozefa Šafárika v Košiciach" 0 0 1 0.0666666666666667 15 3.87298334620742
-"222" "UPJŠ - Filozofická fakulta" "Spoločenské vedy" "Univerzita Pavla Jozefa Šafárika v Košiciach" 0 0 4 0.266666666666667 15 3.87298334620742
-"223" "UPJŠ - Lekárska fakulta" "Humanitné vedy" "Univerzita Pavla Jozefa Šafárika v Košiciach" 0 0 0 0 1 1
-"224" "UPJŠ - Lekárska fakulta" "Lekárske vedy" "Univerzita Pavla Jozefa Šafárika v Košiciach" 1 0.00434782608695652 57 0.247826086956522 230 15.1657508881031
-"225" "UPJŠ - Lekárska fakulta" "Technické vedy" "Univerzita Pavla Jozefa Šafárika v Košiciach" 0 0 0 0 1 1
-"226" "UPJŠ - mimo fakúlt" "Humanitné vedy" "Univerzita Pavla Jozefa Šafárika v Košiciach" 0 0 0 0 3 1.73205080756888
-"227" "UPJŠ - mimo fakúlt" "Lekárske vedy" "Univerzita Pavla Jozefa Šafárika v Košiciach" 2 0.0132450331125828 27 0.178807947019868 151 12.2882057274445
-"228" "UPJŠ - mimo fakúlt" "Prírodné vedy" "Univerzita Pavla Jozefa Šafárika v Košiciach" 4 0.0253164556962025 11 0.069620253164557 158 12.5698050899765
-"229" "UPJŠ - mimo fakúlt" "Spoločenské vedy" "Univerzita Pavla Jozefa Šafárika v Košiciach" 0 0 3 0.1875 16 4
-"230" "UPJŠ - mimo fakúlt" "Technické vedy" "Univerzita Pavla Jozefa Šafárika v Košiciach" 0 0 0 0 5 2.23606797749979
-"231" "UPJŠ - Právnická fakulta" "Spoločenské vedy" "Univerzita Pavla Jozefa Šafárika v Košiciach" 1 0.0769230769230769 0 0 13 3.60555127546399
-"232" "UPJŠ - Prírodovedecká fakulta" "Lekárske vedy" "Univerzita Pavla Jozefa Šafárika v Košiciach" 0 0 0 0 11 3.3166247903554
-"233" "UPJŠ - Prírodovedecká fakulta" "Prírodné vedy" "Univerzita Pavla Jozefa Šafárika v Košiciach" 4 0.0208333333333333 6 0.03125 192 13.856406460551
-"234" "UPJŠ - Prírodovedecká fakulta" "Spoločenské vedy" "Univerzita Pavla Jozefa Šafárika v Košiciach" 0 0 1 0.142857142857143 7 2.64575131106459
-"235" "UPJŠ - Univerzitné pracoviská" "Lekárske vedy" "Univerzita Pavla Jozefa Šafárika v Košiciach" 0 0 0 0 1 1
-"236" "UPJŠ - Univerzitné pracoviská" "Prírodné vedy" "Univerzita Pavla Jozefa Šafárika v Košiciach" 0 0 1 1 1 1
-"237" "UPJŠ - Univerzitné pracoviská" "Spoločenské vedy" "Univerzita Pavla Jozefa Šafárika v Košiciach" 1 1 0 0 1 1
-"238" "UVLF - Nemá fakulty" "Lekárske vedy" "Univerzita veterinárskeho lekárstva a farmácie v Košiciach" 2 0.0119760479041916 22 0.131736526946108 167 12.9228479833201
-"239" "UVLF - Nemá fakulty" "Prírodné vedy" "Univerzita veterinárskeho lekárstva a farmácie v Košiciach" 0 0 1 0.2 5 2.23606797749979
-"240" "VŠBM - Nemá fakulty" "Spoločenské vedy" "Vysoká škola bezpečnostného manažérstva v Košiciach" 0 0 3 0.5 6 2.44948974278318
-"241" "VŠDan - Fakulta verejnej politiky a verejnej správy" "Humanitné vedy" "Vysoká škola Danubius" 0 0 0 0 1 1
-"242" "VŠDan - Fakulta verejnej politiky a verejnej správy" "Spoločenské vedy" "Vysoká škola Danubius" 0 0 2 1 2 1.4142135623731
-"243" "VŠDan - mimo fakúlt" "Spoločenské vedy" "Vysoká škola Danubius" 0 0 0 0 2 1.4142135623731
-"244" "VŠDTI - mimo fakúlt" "Spoločenské vedy" "Vysoká škola DTI" 0 0 0 0 2 1.4142135623731
-"245" "VŠDTI - mimo fakúlt" "Technické vedy" "Vysoká škola DTI" 0 0 1 0.25 4 2
-"246" "VŠDTI - Ústav didaktiky, techniky a edukačných technológií" "Spoločenské vedy" "Vysoká škola DTI" 0 0 0 0 2 1.4142135623731
-"247" "VŠDTI - Ústav odborných predmetov a informačných technológií" "Spoločenské vedy" "Vysoká škola DTI" 0 0 0 0 2 1.4142135623731
-"248" "VŠDTI - Ústav odborných predmetov a informačných technológií" "Technické vedy" "Vysoká škola DTI" 0 0 0 0 5 2.23606797749979
-"249" "VŠEMVS - Nemá fakulty" "Lekárske vedy" "Vysoká škola ekonómie a manažmentu verejnej správy v Bratislave" 0 0 0 0 1 1
-"250" "VŠEMVS - Nemá fakulty" "Spoločenské vedy" "Vysoká škola ekonómie a manažmentu verejnej správy v Bratislave" 2 0.0952380952380952 4 0.19047619047619 21 4.58257569495584
-"251" "VŠM - Nemá fakulty" "Spoločenské vedy" "Vysoká škola manažmentu v Trenčíne" 0 0 0 0 8 2.82842712474619
-"252" "VŠMU - Divadelná fakulta" "Humanitné vedy" "Vysoká škola múzických umení v Bratislave" 0 0 0 0 1 1
-"253" "VŠMU - Filmová a televízna fakulta" "Humanitné vedy" "Vysoká škola múzických umení v Bratislave" 0 0 0 0 1 1
-"254" "VŠMU - Hudobná a tanečná fakulta" "Humanitné vedy" "Vysoká škola múzických umení v Bratislave" 0 0 0 0 2 1.4142135623731
-"255" "VŠVU - Nemá fakulty" "Humanitné vedy" "Vysoká škola výtvarných umení v Bratislave" 0 0 0 0 5 2.23606797749979
-"256" "VŠZaSP - Nemá fakulty" "Lekárske vedy" "Vysoká škola zdravotníctva a sociálnej práce sv. Alžbety v Bratislave" 3 0.111111111111111 6 0.222222222222222 27 5.19615242270663
-"257" "VŠZaSP - Nemá fakulty" "Spoločenské vedy" "Vysoká škola zdravotníctva a sociálnej práce sv. Alžbety v Bratislave" 0 0 0 0 2 1.4142135623731
-"258" "ŽU - Fakulta bezpečnostného inžinierstva " "Prírodné vedy" "Žilinská univerzita v Žiline" 0 0 0 0 2 1.4142135623731
-"259" "ŽU - Fakulta bezpečnostného inžinierstva " "Spoločenské vedy" "Žilinská univerzita v Žiline" 1 0.0294117647058824 17 0.5 34 5.8309518948453
-"260" "ŽU - Fakulta bezpečnostného inžinierstva " "Technické vedy" "Žilinská univerzita v Žiline" 0 0 1 0.142857142857143 7 2.64575131106459
-"261" "ŽU - Fakulta elektrotechnická" "Lekárske vedy" "Žilinská univerzita v Žiline" 0 0 1 0.5 2 1.4142135623731
-"262" "ŽU - Fakulta elektrotechnická" "Prírodné vedy" "Žilinská univerzita v Žiline" 1 0.0163934426229508 12 0.19672131147541 61 7.81024967590665
-"263" "ŽU - Fakulta elektrotechnická" "Spoločenské vedy" "Žilinská univerzita v Žiline" 0 0 0 0 1 1
-"264" "ŽU - Fakulta elektrotechnická" "Technické vedy" "Žilinská univerzita v Žiline" 0 0 25 0.462962962962963 54 7.34846922834953
-"265" "ŽU - Fakulta humanitných vied" "Humanitné vedy" "Žilinská univerzita v Žiline" 0 0 1 1 1 1
-"266" "ŽU - Fakulta humanitných vied" "Prírodné vedy" "Žilinská univerzita v Žiline" 0 0 1 0.2 5 2.23606797749979
-"267" "ŽU - Fakulta humanitných vied" "Spoločenské vedy" "Žilinská univerzita v Žiline" 0 0 1 0.2 5 2.23606797749979
-"268" "ŽU - Fakulta PEDAS" "Humanitné vedy" "Žilinská univerzita v Žiline" 0 0 0 0 2 1.4142135623731
-"269" "ŽU - Fakulta PEDAS" "Prírodné vedy" "Žilinská univerzita v Žiline" 0 0 3 0.375 8 2.82842712474619
-"270" "ŽU - Fakulta PEDAS" "Spoločenské vedy" "Žilinská univerzita v Žiline" 1 0.027027027027027 1 0.027027027027027 37 6.08276253029822
-"271" "ŽU - Fakulta PEDAS" "Technické vedy" "Žilinská univerzita v Žiline" 1 0.0125 17 0.2125 80 8.94427190999916
-"272" "ŽU - Fakulta riadenia a informatiky" "Prírodné vedy" "Žilinská univerzita v Žiline" 0 0 16 0.326530612244898 49 7
-"273" "ŽU - Fakulta riadenia a informatiky" "Spoločenské vedy" "Žilinská univerzita v Žiline" 0 0 4 0.210526315789474 19 4.35889894354067
-"274" "ŽU - Fakulta riadenia a informatiky" "Technické vedy" "Žilinská univerzita v Žiline" 0 0 1 0.5 2 1.4142135623731
-"275" "ŽU - Fakulta stavebná" "Prírodné vedy" "Žilinská univerzita v Žiline" 0 0 0 0 4 2
-"276" "ŽU - Fakulta stavebná" "Spoločenské vedy" "Žilinská univerzita v Žiline" 0 0 0 0 1 1
-"277" "ŽU - Fakulta stavebná" "Technické vedy" "Žilinská univerzita v Žiline" 0 0 10 0.0925925925925926 108 10.3923048454133
-"278" "ŽU - Fakulta strojnícka" "Prírodné vedy" "Žilinská univerzita v Žiline" 2 0.181818181818182 3 0.272727272727273 11 3.3166247903554
-"279" "ŽU - Fakulta strojnícka" "Spoločenské vedy" "Žilinská univerzita v Žiline" 0 0 0 0 1 1
-"280" "ŽU - Fakulta strojnícka" "Technické vedy" "Žilinská univerzita v Žiline" 1 0.00383141762452107 138 0.528735632183908 261 16.1554944214035
-"281" "ŽU - mimo fakúlt" "Spoločenské vedy" "Žilinská univerzita v Žiline" 0 0 0 0 1 1
-"282" "ŽU - mimo fakúlt" "Technické vedy" "Žilinská univerzita v Žiline" 0 0 0 0 2 1.4142135623731
-"283" "ŽU - Univerzitný vedecký park" "Prírodné vedy" "Žilinská univerzita v Žiline" 0 0 0 0 3 1.73205080756888
-"284" "ŽU - Univerzitný vedecký park" "Spoločenské vedy" "Žilinská univerzita v Žiline" 0 0 0 0 3 1.73205080756888
-"285" "ŽU - Univerzitný vedecký park" "Technické vedy" "Žilinská univerzita v Žiline" 0 0 2 0.4 5 2.23606797749979
-"286" "ŽU - Výskumné centrum" "Technické vedy" "Žilinská univerzita v Žiline" 0 0 5 0.2 25 5
-"287" "ŽU - Výskumný ústav vysokohorskej biológie" "Prírodné vedy" "Žilinská univerzita v Žiline" 0 0 0 0 2 1.4142135623731
+"217" "UMB - Filozofická fakulta" "Humanitné vedy" "Univerzita Mateja Bela v Banskej Bystrici" 0 0 6 0.285714285714286 21 4.58257569495584
+"218" "UMB - Filozofická fakulta" "Spoločenské vedy" "Univerzita Mateja Bela v Banskej Bystrici" 17 0.515151515151515 0 0 33 5.74456264653803
+"219" "UMB - Pedagogická fakulta" "Humanitné vedy" "Univerzita Mateja Bela v Banskej Bystrici" 1 0.333333333333333 0 0 3 1.73205080756888
+"220" "UMB - Pedagogická fakulta" "Spoločenské vedy" "Univerzita Mateja Bela v Banskej Bystrici" 0 0 0 0 16 4
+"221" "UMB - Právnická fakulta" "Spoločenské vedy" "Univerzita Mateja Bela v Banskej Bystrici" 0 0 0 0 1 1
+"222" "UPJŠ - Fakulta verejnej správy" "Spoločenské vedy" "Univerzita Pavla Jozefa Šafárika v Košiciach" 1 0.111111111111111 1 0.111111111111111 9 3
+"223" "UPJŠ - Filozofická fakulta" "Humanitné vedy" "Univerzita Pavla Jozefa Šafárika v Košiciach" 0 0 1 0.0666666666666667 15 3.87298334620742
+"224" "UPJŠ - Filozofická fakulta" "Spoločenské vedy" "Univerzita Pavla Jozefa Šafárika v Košiciach" 0 0 4 0.266666666666667 15 3.87298334620742
+"225" "UPJŠ - Lekárska fakulta" "Humanitné vedy" "Univerzita Pavla Jozefa Šafárika v Košiciach" 0 0 0 0 1 1
+"226" "UPJŠ - Lekárska fakulta" "Lekárske vedy" "Univerzita Pavla Jozefa Šafárika v Košiciach" 1 0.00434782608695652 57 0.247826086956522 230 15.1657508881031
+"227" "UPJŠ - Lekárska fakulta" "Technické vedy" "Univerzita Pavla Jozefa Šafárika v Košiciach" 0 0 0 0 1 1
+"228" "UPJŠ - mimo fakúlt" "Humanitné vedy" "Univerzita Pavla Jozefa Šafárika v Košiciach" 0 0 0 0 3 1.73205080756888
+"229" "UPJŠ - mimo fakúlt" "Lekárske vedy" "Univerzita Pavla Jozefa Šafárika v Košiciach" 2 0.0132450331125828 27 0.178807947019868 151 12.2882057274445
+"230" "UPJŠ - mimo fakúlt" "Prírodné vedy" "Univerzita Pavla Jozefa Šafárika v Košiciach" 4 0.0253164556962025 11 0.069620253164557 158 12.5698050899765
+"231" "UPJŠ - mimo fakúlt" "Spoločenské vedy" "Univerzita Pavla Jozefa Šafárika v Košiciach" 0 0 3 0.1875 16 4
+"232" "UPJŠ - mimo fakúlt" "Technické vedy" "Univerzita Pavla Jozefa Šafárika v Košiciach" 0 0 0 0 5 2.23606797749979
+"233" "UPJŠ - Právnická fakulta" "Spoločenské vedy" "Univerzita Pavla Jozefa Šafárika v Košiciach" 1 0.0769230769230769 0 0 13 3.60555127546399
+"234" "UPJŠ - Prírodovedecká fakulta" "Lekárske vedy" "Univerzita Pavla Jozefa Šafárika v Košiciach" 0 0 0 0 11 3.3166247903554
+"235" "UPJŠ - Prírodovedecká fakulta" "Prírodné vedy" "Univerzita Pavla Jozefa Šafárika v Košiciach" 4 0.0208333333333333 6 0.03125 192 13.856406460551
+"236" "UPJŠ - Prírodovedecká fakulta" "Spoločenské vedy" "Univerzita Pavla Jozefa Šafárika v Košiciach" 0 0 1 0.142857142857143 7 2.64575131106459
+"237" "UPJŠ - Univerzitné pracoviská" "Lekárske vedy" "Univerzita Pavla Jozefa Šafárika v Košiciach" 0 0 0 0 1 1
+"238" "UPJŠ - Univerzitné pracoviská" "Prírodné vedy" "Univerzita Pavla Jozefa Šafárika v Košiciach" 0 0 1 1 1 1
+"239" "UPJŠ - Univerzitné pracoviská" "Spoločenské vedy" "Univerzita Pavla Jozefa Šafárika v Košiciach" 1 1 0 0 1 1
+"240" "UVLF - Nemá fakulty" "Lekárske vedy" "Univerzita veterinárskeho lekárstva a farmácie v Košiciach" 2 0.0119760479041916 22 0.131736526946108 167 12.9228479833201
+"241" "UVLF - Nemá fakulty" "Prírodné vedy" "Univerzita veterinárskeho lekárstva a farmácie v Košiciach" 0 0 1 0.2 5 2.23606797749979
+"242" "VŠBM - Nemá fakulty" "Spoločenské vedy" "Vysoká škola bezpečnostného manažérstva v Košiciach" 0 0 3 0.5 6 2.44948974278318
+"243" "VŠDan - Fakulta verejnej politiky a verejnej správy" "Humanitné vedy" "Vysoká škola Danubius" 0 0 0 0 1 1
+"244" "VŠDan - Fakulta verejnej politiky a verejnej správy" "Spoločenské vedy" "Vysoká škola Danubius" 0 0 2 1 2 1.4142135623731
+"245" "VŠDan - mimo fakúlt" "Spoločenské vedy" "Vysoká škola Danubius" 0 0 0 0 2 1.4142135623731
+"246" "VŠDTI - mimo fakúlt" "Spoločenské vedy" "Vysoká škola DTI" 0 0 0 0 2 1.4142135623731
+"247" "VŠDTI - mimo fakúlt" "Technické vedy" "Vysoká škola DTI" 0 0 1 0.25 4 2
+"248" "VŠDTI - Ústav didaktiky, techniky a edukačných technológií" "Spoločenské vedy" "Vysoká škola DTI" 0 0 0 0 2 1.4142135623731
+"249" "VŠDTI - Ústav odborných predmetov a informačných technológií" "Spoločenské vedy" "Vysoká škola DTI" 0 0 0 0 2 1.4142135623731
+"250" "VŠDTI - Ústav odborných predmetov a informačných technológií" "Technické vedy" "Vysoká škola DTI" 0 0 0 0 5 2.23606797749979
+"251" "VŠEMVS - Nemá fakulty" "Lekárske vedy" "Vysoká škola ekonómie a manažmentu verejnej správy v Bratislave" 0 0 0 0 1 1
+"252" "VŠEMVS - Nemá fakulty" "Spoločenské vedy" "Vysoká škola ekonómie a manažmentu verejnej správy v Bratislave" 2 0.0952380952380952 4 0.19047619047619 21 4.58257569495584
+"253" "VŠM - Nemá fakulty" "Spoločenské vedy" "Vysoká škola manažmentu v Trenčíne" 0 0 0 0 8 2.82842712474619
+"254" "VŠMU - Divadelná fakulta" "Humanitné vedy" "Vysoká škola múzických umení v Bratislave" 0 0 0 0 1 1
+"255" "VŠMU - Filmová a televízna fakulta" "Humanitné vedy" "Vysoká škola múzických umení v Bratislave" 0 0 0 0 1 1
+"256" "VŠMU - Hudobná a tanečná fakulta" "Humanitné vedy" "Vysoká škola múzických umení v Bratislave" 0 0 0 0 2 1.4142135623731
+"257" "VŠVU - Nemá fakulty" "Humanitné vedy" "Vysoká škola výtvarných umení v Bratislave" 0 0 0 0 5 2.23606797749979
+"258" "VŠZaSP - Nemá fakulty" "Lekárske vedy" "Vysoká škola zdravotníctva a sociálnej práce sv. Alžbety v Bratislave" 3 0.111111111111111 6 0.222222222222222 27 5.19615242270663
+"259" "VŠZaSP - Nemá fakulty" "Spoločenské vedy" "Vysoká škola zdravotníctva a sociálnej práce sv. Alžbety v Bratislave" 0 0 0 0 2 1.4142135623731
+"260" "ŽU - Fakulta bezpečnostného inžinierstva " "Prírodné vedy" "Žilinská univerzita v Žiline" 0 0 0 0 2 1.4142135623731
+"261" "ŽU - Fakulta bezpečnostného inžinierstva " "Spoločenské vedy" "Žilinská univerzita v Žiline" 1 0.0294117647058824 17 0.5 34 5.8309518948453
+"262" "ŽU - Fakulta bezpečnostného inžinierstva " "Technické vedy" "Žilinská univerzita v Žiline" 0 0 1 0.142857142857143 7 2.64575131106459
+"263" "ŽU - Fakulta elektrotechnická" "Lekárske vedy" "Žilinská univerzita v Žiline" 0 0 1 0.5 2 1.4142135623731
+"264" "ŽU - Fakulta elektrotechnická" "Prírodné vedy" "Žilinská univerzita v Žiline" 1 0.0163934426229508 12 0.19672131147541 61 7.81024967590665
+"265" "ŽU - Fakulta elektrotechnická" "Spoločenské vedy" "Žilinská univerzita v Žiline" 0 0 0 0 1 1
+"266" "ŽU - Fakulta elektrotechnická" "Technické vedy" "Žilinská univerzita v Žiline" 0 0 25 0.462962962962963 54 7.34846922834953
+"267" "ŽU - Fakulta humanitných vied" "Humanitné vedy" "Žilinská univerzita v Žiline" 0 0 1 1 1 1
+"268" "ŽU - Fakulta humanitných vied" "Prírodné vedy" "Žilinská univerzita v Žiline" 0 0 1 0.2 5 2.23606797749979
+"269" "ŽU - Fakulta humanitných vied" "Spoločenské vedy" "Žilinská univerzita v Žiline" 0 0 1 0.2 5 2.23606797749979
+"270" "ŽU - Fakulta PEDAS" "Humanitné vedy" "Žilinská univerzita v Žiline" 0 0 0 0 2 1.4142135623731
+"271" "ŽU - Fakulta PEDAS" "Prírodné vedy" "Žilinská univerzita v Žiline" 0 0 3 0.375 8 2.82842712474619
+"272" "ŽU - Fakulta PEDAS" "Spoločenské vedy" "Žilinská univerzita v Žiline" 1 0.027027027027027 1 0.027027027027027 37 6.08276253029822
+"273" "ŽU - Fakulta PEDAS" "Technické vedy" "Žilinská univerzita v Žiline" 1 0.0125 17 0.2125 80 8.94427190999916
+"274" "ŽU - Fakulta riadenia a informatiky" "Prírodné vedy" "Žilinská univerzita v Žiline" 0 0 16 0.326530612244898 49 7
+"275" "ŽU - Fakulta riadenia a informatiky" "Spoločenské vedy" "Žilinská univerzita v Žiline" 0 0 4 0.210526315789474 19 4.35889894354067
+"276" "ŽU - Fakulta riadenia a informatiky" "Technické vedy" "Žilinská univerzita v Žiline" 0 0 1 0.5 2 1.4142135623731
+"277" "ŽU - Fakulta stavebná" "Prírodné vedy" "Žilinská univerzita v Žiline" 0 0 0 0 4 2
+"278" "ŽU - Fakulta stavebná" "Spoločenské vedy" "Žilinská univerzita v Žiline" 0 0 0 0 1 1
+"279" "ŽU - Fakulta stavebná" "Technické vedy" "Žilinská univerzita v Žiline" 0 0 10 0.0925925925925926 108 10.3923048454133
+"280" "ŽU - Fakulta strojnícka" "Prírodné vedy" "Žilinská univerzita v Žiline" 2 0.181818181818182 3 0.272727272727273 11 3.3166247903554
+"281" "ŽU - Fakulta strojnícka" "Spoločenské vedy" "Žilinská univerzita v Žiline" 0 0 0 0 1 1
+"282" "ŽU - Fakulta strojnícka" "Technické vedy" "Žilinská univerzita v Žiline" 1 0.00383141762452107 138 0.528735632183908 261 16.1554944214035
+"283" "ŽU - mimo fakúlt" "Spoločenské vedy" "Žilinská univerzita v Žiline" 0 0 0 0 1 1
+"284" "ŽU - mimo fakúlt" "Technické vedy" "Žilinská univerzita v Žiline" 0 0 0 0 2 1.4142135623731
+"285" "ŽU - Univerzitný vedecký park" "Prírodné vedy" "Žilinská univerzita v Žiline" 0 0 0 0 3 1.73205080756888
+"286" "ŽU - Univerzitný vedecký park" "Spoločenské vedy" "Žilinská univerzita v Žiline" 0 0 0 0 3 1.73205080756888
+"287" "ŽU - Univerzitný vedecký park" "Technické vedy" "Žilinská univerzita v Žiline" 0 0 2 0.4 5 2.23606797749979
+"288" "ŽU - Výskumné centrum" "Technické vedy" "Žilinská univerzita v Žiline" 0 0 5 0.2 25 5
+"289" "ŽU - Výskumný ústav vysokohorskej biológie" "Prírodné vedy" "Žilinská univerzita v Žiline" 0 0 0 0 2 1.4142135623731
