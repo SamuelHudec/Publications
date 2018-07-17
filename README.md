@@ -24,7 +24,7 @@ Oba zoznamy môžete nájsť pod názvami _SeznamMistni.xlsx_ a _SeznamPredators
 
 ## Čistenie dát
 
-Ako už bolo spomenuté, z kompletného súboru som vybral len záložku "DATA", z tej som ďalej vybral premenné (relevantné)
+Na začiatok treba podotknúť, že za **chyby v súbore** ja neručím. Odstránil som všetky, ktoré som našiel typu Filozofická fakulta UMB, bola vedená ako už neexistujúca Fakulta financii (po preverení autorov náhodne vybraných článkov sa mi to len potvrdilo). Teda, z kompletného súboru som vybral len záložku "DATA", z tej som ďalej použil premenné (relevantné)
 
 * VS_KOD, 
 * VS_NAZOV, 
@@ -63,7 +63,7 @@ Oba datasety okrem iného obsahujú aj extra premennú s názvom Size slúžiacu
 
 Dataset _pubs_vedecke_prac.txt_ použítý na detailné znázornenie sa ukázal ako príliš podrobný a graf obsahuje "veľa" krúžkov. Niektoré fakulty publikovali vo viacerých vedných odboroch ako napríklad UK - Prírodovedecká fakulta má publikácie aj v Spoločenských vedách, čo nie je nič nové. Lenže na prvý náhľad grafu môže práve toto pôsobiť zmätočne, a preto som sa po konzultáciách s kolegami rozhodol **zlúčiť publikácie** v daných vedeckých pracoviskách pod jedným hlavným vedným oborom. 
 
-**Hlavný vedný odbor** považujem taký, v ktorom má dané vedecké pracovisko najväčší počet publikácií bez ohľadu na to, či sa jedná o miestne alebo predátorské. Väčšina pracovísk vyšla intuitívne, napríklad Fakulta prírodných vied dostala prívlastok prírodné vedy, ale v dateasete nájdete aj také, ktoré intuitivne nesedia. Poznámka: pár pracovísk bolo nerozhodných, tak som teda stanovil hlavný vedný odbor pracoviska podľa najrozumnejšej možnosti.
+**Hlavný vedný odbor** považujem taký, v ktorom má dané vedecké pracovisko najväčší počet publikácií bez ohľadu na to, či sa jedná o miestne alebo predátorské. Väčšina pracovísk vyšla intuitívne, napríklad Fakulta prírodných vied dostala prívlastok prírodné vedy, ale v dateasete nájdete aj také, ktoré intuitivne nesedia napríklad Filozofická fakulta ako spoločenské vedy. Poznámka: pár pracovísk bolo nerozhodných, tak som teda stanovil hlavný vedný odbor pracoviska podľa najrozumnejšej možnosti.
 
 Zlučovanie neplatilo pre vedecké pracoviská, ktoré nemali fakulty (nemohol som určiť hlavný vedný odbor celej vysokej školy) a pre mimofakultné publikácie. Mimofakultné publikácie boli zlúčené do jednej množiny **mimo fakúlt** a spadajú tam publikácie označené mimo fakúlt :  rektorát, centrálna časť a pracoviská.
 
