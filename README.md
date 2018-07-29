@@ -10,6 +10,7 @@ Na zostavenie finálneho datasetu som použil dva zdroje.
 
 * [Ministerstvo školstva SR](https://www.minedu.sk/rozpis-dotacii-zo-statneho-rozpoctu-verejnym-vysokym-skolam-na-rok-2018/)
 * [IDEA CERGE-EI](https://idea.cerge-ei.cz/)
+* [CENTRUM VEDECKO-TECHNICKÝCH INFORMÁCIÍ SR](http://www.cvtisr.sk/cvti-sr-vedecka-kniznica/informacie-o-skolstve/statistiky/statisticka-rocenka-publikacia/statisticka-rocenka-vysoke-skoly.html?page_id=9596)
 
 Prvý zdroj obsahuje [link](https://www.minedu.sk/data/att/12810.zip) dáta o 101720 publikáciách slovenských vysokých škôl, v ktorom sú údaje za roky 2015 a 2016. Z tohto súboru je potrebná záložka označená "DATA" , ostatné záložky obsahujú nepotrebné prepočty.
 
@@ -19,6 +20,8 @@ Druhý zdroj obsahuje, okrem množstva zaujímavých analýz, aj štúdiu [Kde s
 * **Zoznamy miestnych časopisov** je databáza vytvorená CERGE-EI, ktorú zastrešuje podrobná štúdia [tu](https://idea.cerge-ei.cz/files/IDEA_Studie_17_2017_Mistni_casopisy_ve_Scopusu/mobile/index.html). Treba zdôrazniť, že sa nejedná len o domáce časopisy. Dataset obsahuje aj zahraničné časopisy, v ktorých často prispievali slovenský a český autori.
 
 Oba zoznamy môžete nájsť pod názvami _SeznamMistni.xlsx_ a _SeznamPredators2017.xlsx_
+
+Posledný zdroj obsahoval podrobné informácie o školách a ich fakultách z ktorých som ďalej použil iba zoznam počtov študentov.
 
 
 
@@ -42,7 +45,8 @@ Na základe týchto premenných som:
 * **Napároval** predátorske a miestne časopisy podľa ISSN v databázach.
 * **Upravil** formáty jednotlivých premenných ako je SCOPUS na jednotné (klasické) značenie 0 a 1.
 * **Vyčistil** názvy jednotlivých vedeckých pracovísk, ktoré obsahovali aj rôzne interné značenia.
-* **Pridal** novú premennú FOS obsahujúcu vedecké zamerania _Fields of Science_ napárované podľa zoznamu _oblastivyskumu-kodovnik.xlsx_ cez premennú OBLAST_VYSKUMU_KOD. 
+* **Pridal** novú premennú FOS obsahujúcu vedecké zamerania _Fields of Science_ napárované podľa zoznamu _oblastivyskumu-kodovnik.xlsx_ cez premennú OBLAST_VYSKUMU_KOD.
+* **Agregoval** z ročeniek priložil informáciu o počtoch študentov na fakultách, ak sa tam informácia o niektorom vedeckom pracovisku nenachádzala, tak dostal ozančenie 0.
 
 Výsledný "učesaný" dataset obsahujúci nové a niektoré staré premenné nájdete pod názvom _pubs_clean.txt_.
 
