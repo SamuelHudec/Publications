@@ -79,3 +79,4 @@ Po úpravách som znova dopočítal sumarizácie a výsledný dataset nájtede p
 
 online cez shiny cloud
 <https://samuell.shinyapps.io/publications/>
+V prípade "chyby" je server vyťažený... 
