@@ -79,4 +79,14 @@ Po úpravách som znova dopočítal sumarizácie a výsledný dataset nájtede p
 
 online cez shiny cloud
 <https://samuell.shinyapps.io/publications/>
-V prípade "chyby" je server vyťažený... 
+V prípade "chyby" je server vyťažený.
+
+alebo lokálne 
+
+```
+install.packages(c("shiny", "shinythemes", "tidyverse", "plotly", "gridExtra"))
+library(shiny)
+runGitHub("Publications", "SamuelHudec")
+```
+
+
