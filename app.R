@@ -2,11 +2,9 @@
 # libraries
 library(shiny)
 library(shinythemes)
-library(ggplot2)
-library(dplyr)
+library(tidyverse)
 library(plotly)
 library(gridExtra)
-library(stringr)
 
 # datasets GitHub ####
 # filtred, grouped, counted and selected datasets from raw pubsFull listed on link
